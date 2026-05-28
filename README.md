@@ -2,7 +2,7 @@
 
 This repository contains three comprehensive Parallel and Distributed Computing (PDC) projects implemented in C using the Message Passing Interface (MPI).
 
-## 📂 Project Structure
+## Project Structure
 
 | File | Project Title | Description |
 | :--- | :--- | :--- |
@@ -10,9 +10,7 @@ This repository contains three comprehensive Parallel and Distributed Computing 
 | **[q2.c](q2.c)** | Deadlock-Avoiding Exchange | Demonstration of a deadlock-free multi-phase message exchange system using rank-ordering and a READY-ACK handshake protocol. |
 | **[q3.c](q3.c)** | Distributed Priority Queue | A concurrent task processing system using a Binary Min-Heap at the root, comparing blocking, non-blocking, and batching communication. |
 
----
-
-## 🚀 Getting Started (Linux/Ubuntu)
+## Getting Started (Linux/Ubuntu)
 
 These projects are designed for **OpenMPI**. Ensure you have it installed:
 ```bash
@@ -40,9 +38,7 @@ mpirun -np 8 ./q2
 mpirun -np 8 ./q3 10
 ```
 
----
-
-## 🪟 Running on Windows (MS-MPI)
+## Running on Windows (MS-MPI)
 
 If running on Windows, ensure **Microsoft MPI** is installed.
 
@@ -52,9 +48,7 @@ I have provided PowerShell helper scripts for each question to automate compilat
 - `run_q2.ps1`
 - `run_q3.ps1`
 
----
-
-## 🛠️ Technical Highlights
+## Technical Highlights
 
 ### 1. Hierarchical Tree (Q1)
 - **Complexity**: Reduces communication from $O(P)$ to $O(\log_k P)$.
@@ -70,9 +64,7 @@ I have provided PowerShell helper scripts for each question to automate compilat
 - **Batching**: Bundles multiple tasks into single packets to amortize network latency.
 - **Asynchronous**: Demonstrates the use of `MPI_Isend`, `MPI_Irecv`, and `MPI_Test` for overlapping computation and communication.
 
----
-
-## 📊 Sample Output Visualization
+## Sample Output Visualization
 The projects include detailed logs and ASCII visualizations:
 ```text
 Level 0: [P0 (root)]
@@ -85,6 +77,11 @@ Level 2: [P3] [P4] [P5] [P6]
 Tree Collectives: CORRECT
 ```
 
----
-**Author:** PDC Assignment Submission  
+## Contributing
+To contribute to this project, please fork the repository and submit a pull request with your changes. Ensure that your code is properly formatted and includes any necessary documentation.
+
+## License
+This project is licensed under the MIT License.
+
+**Author:** PDC Assignment Submission
 **Course:** Parallel and Distributed Computing (SEM 6)
