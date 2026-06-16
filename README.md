@@ -78,10 +78,7 @@ Tree Collectives: CORRECT
 ```
 
 ## Contributing
-To contribute to this project, please fork the repository and submit a pull request with your changes. Ensure that your code is properly formatted and includes any necessary documentation.
+To contribute to this project, please fork the repository and submit a pull request with your changes. Ensure that your code adheres to the existing coding standards and includes proper documentation. Additionally, consider adding unit tests or integration tests to validate your changes.
 
 ## License
-This project is licensed under the MIT License.
-
-**Author:** PDC Assignment Submission
-**Course:** Parallel and Distributed Computing (SEM 6)
+This project is licensed under the MIT License. See the LICENSE file for details.
