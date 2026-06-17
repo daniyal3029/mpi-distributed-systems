@@ -78,7 +78,7 @@ Tree Collectives: CORRECT
 ```
 
 ## Contributing
-To contribute to this project, please fork the repository and submit a pull request with your changes. Ensure that your code adheres to the existing coding standards and includes proper documentation. Additionally, consider adding unit tests or integration tests to validate your changes.
+To contribute to this project, please fork the repository and submit a pull request with your changes. Ensure that your changes are properly documented and tested. We appreciate any contributions, whether it's a bug fix, a new feature, or an improvement to the documentation.
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
