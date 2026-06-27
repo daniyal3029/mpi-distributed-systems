@@ -78,4 +78,7 @@ Tree Collectives: CORRECT
 ```
 
 ## Contributing
-To contribute to this project, please fork the repository and submit a pull request with your changes. Ensure that your code is properly formatted, follows standard professional guidelines, and includes detailed comments for clarity. Additionally, consider adding unit tests to verify the correctness of your changes.
+To contribute to this project, please fork the repository and submit a pull request with your changes. Ensure that your code is formatted according to standard C conventions and includes proper documentation. Additionally, please run the provided test cases to verify the correctness of your changes.
+
+## License
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
